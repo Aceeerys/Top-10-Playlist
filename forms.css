@@ -1,0 +1,64 @@
+body {
+    font-family: 'Comic Neue', cursive, sans-serif;
+    background-color: #999999;
+    background-image: url('HIRONO.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #F3EBD8;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1); 
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input,
+select, 
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+
+input[type="radio" ] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #686767;
+    color: #171717;
+    border: none; 
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #B6BB79;
+}
+
+.error {
+    color:red;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
